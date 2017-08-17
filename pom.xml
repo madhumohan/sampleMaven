@@ -89,7 +89,7 @@
           <!-- Embedded port -->
           <port>8080</port>
           <!--
-            The default authentication credentials for remote deployment are username "admin" with no password To
+            The default authentiation credentials for remote deployment are username "admin" with no password To
             override credentials, define a server in settings.xml and activate it using the <server> element
           -->
           <url>http://localhost:8080/manager</url>
