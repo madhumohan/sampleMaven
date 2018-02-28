@@ -1,7 +1,7 @@
 <%@ taglib uri="http://www.makumba.org/presentation" prefix="mak" %>
 <html>
 <head>
-<title>Hello DevOps</title>
+<title>Hello DEVOPS1</title>
 </head>
 <body bgcolor="#E6666A">
 
