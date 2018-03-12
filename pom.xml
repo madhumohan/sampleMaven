@@ -86,7 +86,7 @@
         </configuration>
       </plugin>
 
-      <!-- Embedded Tomcat (package tomcat:run) -->
+      <!-- Embedded Tomcat (pachelloookage tomcat:run) -->
       <!-- Standalone Tomcat (package tomcat:deploy) -->
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
