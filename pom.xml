@@ -78,7 +78,7 @@
               <port>8080</port>
             </connector>
           </connectors>
-          <!-- force friendly name instead of artifact name + version -->
+          <!-- force friendlys name instead of artifact name + version -->
           <contextPath>${project.build.finalName}</contextPath>
           <!-- This parameter will auto-deploy modified classes. -->
           <!-- You can save changes in a filesss or class,,, and refresh your browser to view the changes. -->
