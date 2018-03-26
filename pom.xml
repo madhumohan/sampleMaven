@@ -11,6 +11,7 @@
 
   <properties>
     <!--
+      hello
       Eplicitly declag e source en  codng eliminates the following message: [WARNING] Using platform encoding
       (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
     -->
