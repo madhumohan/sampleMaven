@@ -64,7 +64,7 @@
   </dependencies>
 
   <build>
-    <finalName>webapps</finalName>
+    <finalName>prasad</finalName>
     <sourceDirectory>src/java</sourceDirectory>
     <outputDirectory>target/classes</outputDirectory>
     <plugins>
