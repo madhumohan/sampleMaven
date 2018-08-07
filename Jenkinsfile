@@ -17,5 +17,9 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+        stage('build') {
+            steps {
+                sh 'mvn --version'
+            }
     }
 }
