@@ -1,32 +1,25 @@
 pipeline{
   agent{
-    label "windows"
+    
    }
 
-   tools{
-    maven "apache-maven-3.5.2"
-    jdk "jdk1.8.0_171"
-   }
    stages{
-			 stage('Initialize'){
-				 steps{
-					bat '''
-					echo "PATH = $PATH"
-					echo "M2_HOME = %M2_HOME%"
-				   '''
-				  }
+			 stage('test'){
+			 
+			   echo "testing is completed"
+				 
 			   }
 
-			stage('test'){
+			stage('build'){
 				 steps{
-					bat 'mvn install'
+			echo "build is completed"
 					
 				  }
 			   } 
 
-			   stage('build'){
+			   stage('deploy'){
 				 steps{
-					bat 'mvn install'
+					echo "deploy is completed"
 					
 				  }
 			   } 
