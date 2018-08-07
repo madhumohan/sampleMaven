@@ -1,28 +1,21 @@
-pipeline{
-  agent{
-    
-   }
+pipeline {
+    agent any
 
-   stages{
-			 stage('test'){
-			 
-			   echo "testing is completed"
-				 
-			   }
-
-			stage('build'){
-				 steps{
-			echo "build is completed"
-					
-				  }
-			   } 
-
-			   stage('deploy'){
-				 steps{
-					echo "deploy is completed"
-					
-				  }
-			   } 
-     } 
- 
-  }
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+}
